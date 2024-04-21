@@ -13,4 +13,4 @@ class Population:
         self.sort_chromosome_by_fitness()
 
     def sort_chromosome_by_fitness(self) -> None:
-        self.chromosomes = sorted(self.chromosomes, key=lambda chromosome: chromosome.get_fitness())
+        self.chromosomes = sorted(self.chromosomes, key=lambda chromosome: chromosome.fitness)
