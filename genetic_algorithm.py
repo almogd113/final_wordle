@@ -1,0 +1,1 @@
+TARGET_CHROMOSOME = "almog"
