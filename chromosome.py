@@ -5,14 +5,12 @@ from consts.constants import TARGET_CHROMOSOME
 class Chromosome:
     VALID_GENES = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     VALID_GENES_LIST = list(VALID_GENES)
-
-    # is_fitness_changed = False
+    is_fitness_changed = False
 
     def __init__(self):
         self.target_word = TARGET_CHROMOSOME
         self.genes = []
-        self.genes_init()
-        self.fitness = self.calculate_fitness()
+        self.fitness = 0
 
     def genes_init(self) -> None:
         for x in range(len(TARGET_CHROMOSOME)):
@@ -25,25 +23,18 @@ class Chromosome:
                 fitness_count += 1
         return fitness_count
 
-    def get_genes(self) -> []:
-        # self.is_fitness_changed = True
-        return self.genes
-
-    # def get_fitness(self) -> int:
-    #     # if self.is_fitness_changed:
-    #         self.fitness = self.calculate_fitness()
-    #     #     self.is_fitness_changed = False
-    #     # return self.fitness
+    def get_fitness(self) -> int:
+        # if self.is_fitness_changed:
+        self.fitness = self.calculate_fitness()
+        # self.is_fitness_changed = False
+        return self.fitness
 
     def genes_string(self) -> str:
-        string_genes = ""
-        for x in self.genes:
-            string_genes += x
-        return string_genes
+        return "".join(self.genes)
 
     def __repr__(self) -> str:
-        format_txt = "Genes: {}\tfitness: {}\n"
-        return format_txt.format(self.genes_string(), self.fitness)
+        format_txt = "Genes: {}\t fitness: {}\n"
+        return format_txt.format("".join(self.genes_string()), self.calculate_fitness())
 
 # def print_list(lst: []) -> None:
 #     for x in lst:

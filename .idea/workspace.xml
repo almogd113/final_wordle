@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c64824-7c0b-4f58-ad81-23904e713ce8" name="Changes" comment="created chromosome and population classes">
-      <change afterPath="$PROJECT_DIR$/consts/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f9c64824-7c0b-4f58-ad81-23904e713ce8" name="Changes" comment="chromosome, population classes works, added print function of population in driver.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chromosome.py" beforeDir="false" afterPath="$PROJECT_DIR$/chromosome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consts/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/consts/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/genetic_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/population.py" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.chromosome.executor": "Debug",
-    "Python.driver.executor": "Run",
+    "Python.driver.executor": "Debug",
     "Python.population.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -129,8 +128,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.driver" />
-        <item itemvalue="Python.chromosome" />
         <item itemvalue="Python.population" />
+        <item itemvalue="Python.chromosome" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +173,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1713708620074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="chromosome, population classes works, added print function of population in driver.py">
+      <option name="closed" value="true" />
+      <created>1713719081686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1713719081686</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,20 +199,31 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added chromosome class" />
     <MESSAGE value="created chromosome and population classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created chromosome and population classes" />
+    <MESSAGE value="chromosome, population classes works, added print function of population in driver.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="chromosome, population classes works, added print function of population in driver.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/driver.py</url>
-          <line>6</line>
+          <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/genetic_algorithm.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/driver.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/genetic_algorithm.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
