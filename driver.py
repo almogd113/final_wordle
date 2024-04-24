@@ -28,5 +28,7 @@ def main() -> None:
         prompt = "Generation #" + str(generation_number)
         print_population(population, prompt=prompt)
 
+    print("well done! you found the target word - {}".format(TARGET_CHROMOSOME))
+
 
 main()

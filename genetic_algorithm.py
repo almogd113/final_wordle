@@ -9,7 +9,7 @@ import random
 
 def crossover_population(population: Population) -> Population:
     population_crossover = Population(len(population.chromosomes))
-    for index in range(1):
+    for index in range(NUMBER_OF_ELITE_CHROMOSOMES):
         population_crossover.chromosomes.append(population.chromosomes[index])
 
     for index in range(1, len(population.chromosomes)):
@@ -42,10 +42,10 @@ def select_tournament_population(population: Population) -> Population:
 
 def mutate_population(population: Population) -> Population:
     population_mutate = Population(POPULATION_SIZE)
-    for index in range(1):
+    for index in range(NUMBER_OF_ELITE_CHROMOSOMES):
         population_mutate.chromosomes.append(population.chromosomes[index])
 
-    for index in range(1, len(population.chromosomes)):
+    for index in range(NUMBER_OF_ELITE_CHROMOSOMES, len(population.chromosomes)):
         chromosome_to_mutate = population.chromosomes[index]
         population_mutate.chromosomes.append(mutate_chromosome(chromosome_to_mutate))
     return population_mutate
