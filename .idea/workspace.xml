@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c64824-7c0b-4f58-ad81-23904e713ce8" name="Changes" comment="chromosome, population classes works, added print function of population in driver.py">
+    <list default="true" id="f9c64824-7c0b-4f58-ad81-23904e713ce8" name="Changes" comment="fixed all the problems, works good!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chromosome.py" beforeDir="false" afterPath="$PROJECT_DIR$/chromosome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consts/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/consts/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/population.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.chromosome.executor": "Debug",
-    "Python.driver.executor": "Debug",
+    "Python.driver.executor": "Run",
     "Python.population.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -181,7 +178,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1713719081686</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="the algorithm works!! need to fix the constats conection and create better main function">
+      <option name="closed" value="true" />
+      <created>1713989142925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1713989142925</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="fixed all the problems, works good!!">
+      <option name="closed" value="true" />
+      <created>1713989506577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1713989506577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +213,9 @@
     <MESSAGE value="added chromosome class" />
     <MESSAGE value="created chromosome and population classes" />
     <MESSAGE value="chromosome, population classes works, added print function of population in driver.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="chromosome, population classes works, added print function of population in driver.py" />
+    <MESSAGE value="the algorithm works!! need to fix the constats conection and create better main function" />
+    <MESSAGE value="fixed all the problems, works good!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed all the problems, works good!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,9 +1,9 @@
 import random
 from consts.constants import TARGET_CHROMOSOME
+from consts.constants import VALID_GENES
 
 
 class Chromosome:
-    VALID_GENES = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     VALID_GENES_LIST = list(VALID_GENES)
     is_fitness_changed = False
 
